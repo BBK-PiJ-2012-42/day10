@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package day10;
 
 import org.junit.AfterClass;
@@ -14,9 +10,6 @@ import org.junit.BeforeClass;
  * @author tom
  */
 public class LibraryTest {
-    
-    public LibraryTest() {
-    }
 
     @BeforeClass
     public static void setUpClass() throws Exception {
@@ -33,10 +26,8 @@ public class LibraryTest {
     public void testGetID() {
         System.out.println("getID");
         Library instance = new Library();
-        int expResult = 0;
+        int expResult = 13;
         int result = instance.getID();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 }
