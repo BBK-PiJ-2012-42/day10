@@ -1,14 +1,15 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package day10;
-
 /**
  *
- * @author tom
+ * @author Tom Nealon
  */
 public class Library {
+/**    
+ * 
+ * 
+ * 
+ * 
+*/    
     public String name = "mock object";
     public int getID() {
         return 13;

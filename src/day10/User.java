@@ -1,14 +1,15 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package day10;
-
 /**
  *
- * @author tom
+ * @author Tom Nealon
  */
 public class User {
+/**    
+ * User points to Library.
+ * @param name the User name which must be unique within a library.
+ * @param ID an integer also uniquely identifying the user within a library.
+ * @param userLibrary a pointer to the Library the user is registered with.
+*/            
     private String name;
     private int ID;
     private Library userLibrary;

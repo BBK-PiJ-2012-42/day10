@@ -1,14 +1,15 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package day10;
-
 /**
  *
- * @author tom
+ * @author Tom Nealon
  */
 public class Book {
+/**    
+ * User points to Library.
+ * @param title the title of the book.
+ * @param ID an integer uniquely identifying the book within a library.
+ * 
+*/    
     public final String title;
     public final String author;
     

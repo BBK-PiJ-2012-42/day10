@@ -1,16 +1,12 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package day10;
-
 /**
  *
- * @author tom
+ * @author Tom Nealon
  */
 public class Day10 {
 
     /**
+     * Day10 is the main script class for implementation.
      * @param args the command line arguments
      */
     public static void main(String[] args) {
