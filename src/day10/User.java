@@ -15,18 +15,34 @@ public class User {
     private Library userLibrary;
     
     public User (String name) {
+        /**
+        * Sets User name only ID is not set by constructor.
+        * 
+        */
         this.name = name;
     }
     
     public String getName() {
+        /**
+        * Getter for User name.
+        * @return the user name as a string.
+        */
         return this.name;
     } 
     
     public int getID() {
+        /**
+        * Getter for User ID.
+        * @return the user ID as an integer.
+        */
         return ID;
     }
     
     public void setID(int ID) {
+        /**
+        * Setter for User ID.
+        * 
+        */
         this.ID = ID;
     }
     
